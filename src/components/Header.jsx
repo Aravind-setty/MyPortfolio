@@ -15,7 +15,7 @@ const Header = () => {
             <a href="#education" className="text-gray-700 hover:text-primary-600 transition">Education</a>
             <a href="#contact" className="text-gray-700 hover:text-primary-600 transition">Contact</a>
             <a 
-              href="/resume.pdf" 
+              href="./resume.pdf" 
               download="Aravind_Setty_Resume.pdf"
               className="bg-primary-600 text-white px-4 py-2 rounded-lg hover:bg-primary-700 transition flex items-center gap-2"
             >
@@ -27,7 +27,7 @@ const Header = () => {
           </div>
           <div className="md:hidden">
             <a 
-              href="/resume.pdf" 
+              href="./resume.pdf" 
               download="Aravind_Setty_Resume.pdf"
               className="bg-primary-600 text-white px-3 py-2 rounded-lg hover:bg-primary-700 transition flex items-center gap-2 text-sm"
             >
