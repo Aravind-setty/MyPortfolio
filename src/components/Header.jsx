@@ -6,7 +6,7 @@ const Header = () => {
   const resumePath = import.meta.env.BASE_URL + 'resume.pdf'
   
   return (
-    <header className="bg-white dark:bg-gray-800 shadow-md sticky top-0 z-50 transition-colors">
+    <header className="bg-white dark:bg-gray-900 shadow-md dark:shadow-gray-900/50 sticky top-0 z-50 transition-colors border-b border-gray-200 dark:border-gray-800">
       <nav className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
           <div className="text-2xl font-bold text-primary-600 dark:text-primary-400">

@@ -34,7 +34,7 @@ const Education = () => {
   ]
 
   return (
-    <section id="education" className="py-20 bg-white dark:bg-gray-900 transition-colors">
+    <section id="education" className="py-20 bg-white dark:bg-gray-950 transition-colors">
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-bold text-center text-gray-900 dark:text-white mb-12">Education & Training</h2>
         
@@ -43,7 +43,7 @@ const Education = () => {
             <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6">Academic Programs</h3>
             <div className="space-y-6">
               {programs.map((program, index) => (
-                <div key={index} className="bg-gradient-to-r from-primary-50 to-white dark:from-gray-800 dark:to-gray-700 rounded-lg shadow-md p-6 border-l-4 border-primary-500 transition-colors">
+                <div key={index} className="bg-gradient-to-r from-primary-50 to-white dark:from-gray-900 dark:to-gray-800 rounded-lg shadow-md dark:shadow-gray-900/50 p-6 border-l-4 border-primary-500 dark:border-primary-400 transition-colors">
                   <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-3">
                     <div>
                       <h4 className="text-xl font-bold text-gray-900 dark:text-white">{program.title}</h4>
@@ -61,7 +61,7 @@ const Education = () => {
             <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6">Education</h3>
             <div className="space-y-6">
               {education.map((edu, index) => (
-                <div key={index} className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 border-l-4 border-primary-500 hover:shadow-lg transition-shadow">
+                <div key={index} className="bg-white dark:bg-gray-900 rounded-lg shadow-md dark:shadow-gray-900/50 p-6 border-l-4 border-primary-500 dark:border-primary-400 hover:shadow-lg transition-shadow border border-gray-100 dark:border-gray-800">
                   <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-2">{edu.institution}</h4>
                   <p className="text-lg text-primary-600 dark:text-primary-400 font-medium mb-2">{edu.degree}</p>
                   <div className="flex flex-wrap gap-4 text-gray-600 dark:text-gray-400 mb-2">
