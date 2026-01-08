@@ -19,15 +19,6 @@ const Projects = () => {
         "Performed data manipulation and aggregation using Pandas and NumPy for structured analysis.",
         "Created basic visualizations using Matplotlib to represent trends and patterns in data."
       ]
-    },
-    {
-      title: "MyPortfolio – Responsive Personal Website",
-      tech: "HTML, CSS, JavaScript, Tailwind CSS",
-      description: [
-        "Designed and developed a responsive personal portfolio website to showcase skills and projects.",
-        "Implemented mobile-friendly layouts and reusable UI components.",
-        "Structured content with clean navigation and modern frontend styling practices."
-      ]
     }
   ]
 
@@ -35,7 +26,7 @@ const Projects = () => {
     <section id="projects" className="py-20 bg-gradient-to-br from-gray-50 to-primary-50">
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">Projects</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {projects.map((project, index) => (
             <div key={index} className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
               <h3 className="text-2xl font-bold text-gray-900 mb-3">{project.title}</h3>
