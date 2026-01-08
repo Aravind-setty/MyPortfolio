@@ -2,17 +2,17 @@ import React from 'react'
 
 const About = () => {
   return (
-    <section id="about" className="py-20 bg-gradient-to-br from-primary-50 to-white">
+    <section id="about" className="py-20 bg-gradient-to-br from-primary-50 to-white dark:from-gray-900 dark:to-gray-800 transition-colors">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
+          <h1 className="text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6">
             Aravind Setty
           </h1>
-          <p className="text-xl text-gray-600 mb-8">
+          <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
             Software Developer
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-12">
-            <div className="flex items-center gap-2 text-gray-700">
+            <div className="flex items-center gap-2 text-gray-700 dark:text-gray-300">
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -32,9 +32,9 @@ const About = () => {
               <span>GitHub</span>
             </a>
           </div>
-          <div className="bg-white rounded-lg shadow-lg p-8 text-left">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Summary</h2>
-            <p className="text-gray-700 leading-relaxed">
+          <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 text-left transition-colors">
+            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">Summary</h2>
+            <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
               Entry-level Software Developer with a strong foundation in JavaScript and Python, and hands-on exposure to building web applications using React, Node.js, and Express. Familiar with Software Development Lifecycle (SDLC), RESTful APIs and working with both relational and NoSQL databases such as MySQL and MongoDB. Demonstrates a strong foundation in programming fundamentals and is capable of understanding, reviewing, and extending existing codebases, with a strong focus on continuous skill development.
             </p>
           </div>
