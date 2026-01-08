@@ -1,6 +1,8 @@
 import React from 'react'
 
 const Header = () => {
+  const resumePath = import.meta.env.BASE_URL + 'resume.pdf'
+  
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
       <nav className="container mx-auto px-6 py-4">
@@ -15,7 +17,7 @@ const Header = () => {
             <a href="#education" className="text-gray-700 hover:text-primary-600 transition">Education</a>
             <a href="#contact" className="text-gray-700 hover:text-primary-600 transition">Contact</a>
             <a 
-              href="./resume.pdf" 
+              href={resumePath}
               download="Aravind_Setty_Resume.pdf"
               className="bg-primary-600 text-white px-4 py-2 rounded-lg hover:bg-primary-700 transition flex items-center gap-2"
             >
@@ -27,7 +29,7 @@ const Header = () => {
           </div>
           <div className="md:hidden">
             <a 
-              href="./resume.pdf" 
+              href={resumePath}
               download="Aravind_Setty_Resume.pdf"
               className="bg-primary-600 text-white px-3 py-2 rounded-lg hover:bg-primary-700 transition flex items-center gap-2 text-sm"
             >
