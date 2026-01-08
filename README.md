@@ -74,28 +74,3 @@ my-portfolio/
 └── postcss.config.js
 ```
 
-## Deployment
-
-This portfolio is ready to deploy to GitHub Pages! See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed instructions.
-
-### Quick Deploy Steps:
-
-1. **Create a GitHub repository** (name it `yourusername.github.io` for a clean URL)
-2. **Push your code:**
-   ```bash
-   git add .
-   git commit -m "Initial commit"
-   git branch -M main
-   git remote add origin https://github.com/yourusername/yourusername.github.io.git
-   git push -u origin main
-   ```
-3. **Enable GitHub Pages:**
-   - Go to Settings > Pages
-   - Select "GitHub Actions" as the source
-   - Your site will auto-deploy!
-
-Your portfolio will be live at: `https://yourusername.github.io`
-
-## License
-
-This project is open source and available for personal use.
