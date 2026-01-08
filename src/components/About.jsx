@@ -5,6 +5,22 @@ const About = () => {
     <section id="about" className="py-20 bg-gradient-to-br from-primary-50 to-white dark:from-gray-950 dark:to-gray-900 transition-colors">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto text-center">
+          <div className="mb-8">
+            <img 
+              src={import.meta.env.BASE_URL + 'profile.jpg'} 
+              alt="Aravind Setty"
+              className="w-48 h-48 mx-auto rounded-full object-cover border-4 border-primary-200 dark:border-primary-800 shadow-xl mb-6"
+              onError={(e) => {
+                e.target.style.display = 'none';
+                e.target.nextSibling.style.display = 'flex';
+              }}
+            />
+            <div 
+              className="w-48 h-48 mx-auto rounded-full bg-gradient-to-br from-primary-400 to-primary-600 dark:from-primary-600 dark:to-primary-800 flex items-center justify-center text-white text-6xl font-bold shadow-xl mb-6 hidden"
+            >
+              AS
+            </div>
+          </div>
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6">
             Aravind Setty
           </h1>
