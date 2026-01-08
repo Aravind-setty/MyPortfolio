@@ -1,4 +1,5 @@
 import React from "react";
+import  profileImg from "../assets/profile.jpg";
 
 const About = () => {
   return (
@@ -10,7 +11,7 @@ const About = () => {
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8">
             <img
-              src="/Profile.jpg"
+              src={profileImg}
               alt="Aravind Setty"
               className="w-48 h-48 mx-auto rounded-full object-cover border-4 border-primary-200 dark:border-primary-800 shadow-xl mb-6"
               onError={(e) => {
